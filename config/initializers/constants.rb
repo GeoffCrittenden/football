@@ -1,0 +1,73 @@
+NFL_TEAMS = [
+  ['Green Bay',     'Packers',    'WI', 'GB'],
+  ['Chicago',       'Bears',      'IL', 'CHI'],
+  ['Detroit',       'Lions',      'MI', 'DET'],
+  ['Minnesota',     'Vikings',     nil, 'MIN'],
+  ['New York',      'Giants',     'NY', 'NYG'],
+  ['Washington',    'Redskins',   'DC', 'WSH'],
+  ['Philadelphia',  'Eagles',     'PA', 'PHI'],
+  ['Dallas',        'Cowboys',    'TX', 'DAL'],
+  ['Atlanta',       'Falcons',    'GA', 'ATL'],
+  ['New Orleans',   'Saints',     'LA', 'NO'],
+  ['Carolina',      'Panthers',    nil, 'CAR'],
+  ['Tampa Bay',     'Buccaneers', 'FL', 'TB'],
+  ['Arizona',       'Cardinals',   nil, 'ARI'],
+  ['St. Louis',     'Rams',       'MO', 'STL'],
+  ['Seattle',       'Seahawks',   'WA', 'SEA'],
+  ['San Francisco', '49ers',      'CA', 'SF'],
+  ['Pittsburgh',    'Steelers',   'PA', 'PIT'],
+  ['Cleveland',     'Browns',     'OH', 'CLE'],
+  ['Cincinnati',    'Bengals',    'OH', 'CIN'],
+  ['Baltimore',     'Ravens',     'MD', 'BAL'],
+  ['Buffalo',       'Bills',      'NY', 'BUF'],
+  ['New York',      'Jets',       'NY', 'NYJ'],
+  ['Miami',         'Dolphins',   'FL', 'MIA'],
+  ['New England',   'Patriots',    nil, 'NE'],
+  ['Indianapolis',  'Colts',      'IN', 'IND'],
+  ['Houston',       'Texans',     'TX', 'HOU'],
+  ['Jacksonville',  'Jaguars',    'FL', 'JAC'],
+  ['Tennessee',     'Titans',      nil, 'TEN'],
+  ['Denver',        'Broncos',    'CO', 'DEN'],
+  ['San Diego',     'Chargers',   'CA', 'SD'],
+  ['Oakland',       'Raiders',    'CA', 'OAK'],
+  ['Kansas City',   'Chiefs',     'MO', 'KC']
+]
+
+OWNERS = [
+  ['Geoff', 'Crittenden', 'Bilzo',    'BLZO'],
+  ['Mike',  'Petronis',   'Mooch',    'MUCH'],
+  ['Dave',  'Balsitis',   'Jack',     'JACK'],
+  ['Joe',   'Pommerer',   'LBJ',      'LBJ'],
+  ['Bill',  'Frank',      'Tank',     'TANK'],
+  ['Jeff',  'McKenna',    'Rub',      'RUB'],
+  ['Jeff',  'Rogers',     'Shaggy',   'SHGY'],
+  ['Chris', 'Nicoletti',  'Turdbowl', 'TURD'],
+  ['Dave',  'Cassalia',   'SH8',      'SH8'],
+  ['John',  'Desplinter', 'TC',       'TC'],
+  ['Greg',  'Kausner',    'Marv',     'MARV'],
+  ['Matt',  'Bernhard',   'Sicko',    'SCKO'],
+]
+
+TEAMS = [
+  ['Bilzo',    'The Wisconsin High Life'],
+  ['Mooch',    'Mooch Fighters'],
+  ['Jack',     'CHI TOWN MAFIA'],
+  ['LBJ',      'Dakota Clydesdales'],
+  ['Tank',     'Frank the Tanks'],
+  ['Rub',      'Irish Pubbers'],
+  ['Shaggy',   "I'm in Delaware"],
+  ['Turdbowl', 'GSP Exit 98'],
+  ['SH8',      'THE SH8TRIOTS'],
+  ['TC',       'Shake Down the Thundersocks'],
+  ['Marv',     'Garden State Marvelous'],
+  ['Sicko',    'Seattle Space Apes'],
+]
+
+POSITIONS = [
+  ['Quarterback',           'QB'],
+  ['Running Back',          'RB'],
+  ['Wide Receiver',         'WR'],
+  ['Tight End',             'TE'],
+  ['Defense/Special Teams', 'D/ST'],
+  ['Kicker',                'K']
+]
