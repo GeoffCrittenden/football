@@ -1,3 +1,13 @@
+BASE_URL = 'http://games.espn.com/ffl'
+
+GOOGLE_DRIVE_CONFIG = Football::CONFIG.google_drive_info.config_file
+
+LEAGUE_ID = Football::CONFIG.league_info.league_id
+
+OWNERS = Football::CONFIG.league_info.owners
+
+TEAMS = Football::CONFIG.league_info.teams
+
 NFL_TEAMS = [
   ['Green Bay',     'Packers',    'WI', 'GB'],
   ['Chicago',       'Bears',      'IL', 'CHI'],
@@ -31,36 +41,6 @@ NFL_TEAMS = [
   ['San Diego',     'Chargers',   'CA', 'SD'],
   ['Oakland',       'Raiders',    'CA', 'OAK'],
   ['Kansas City',   'Chiefs',     'MO', 'KC']
-]
-
-OWNERS = [
-  ['Geoff', 'Crittenden', 'Bilzo',    'BLZO'],
-  ['Mike',  'Petronis',   'Mooch',    'MUCH'],
-  ['Dave',  'Balsitis',   'Jack',     'JACK'],
-  ['Joe',   'Pommerer',   'LBJ',      'LBJ'],
-  ['Bill',  'Frank',      'Tank',     'TANK'],
-  ['Jeff',  'McKenna',    'Rub',      'RUB'],
-  ['Jeff',  'Rogers',     'Shaggy',   'SHGY'],
-  ['Chris', 'Nicoletti',  'Turdbowl', 'TURD'],
-  ['Dave',  'Cassalia',   'SH8',      'SH8'],
-  ['John',  'Desplinter', 'TC',       'TC'],
-  ['Greg',  'Kausner',    'Marv',     'MARV'],
-  ['Matt',  'Bernhard',   'Sicko',    'SCKO'],
-]
-
-TEAMS = [
-  ['Bilzo',    'The Wisconsin High Life'],
-  ['Mooch',    'Mooch Fighters'],
-  ['Jack',     'CHI TOWN MAFIA'],
-  ['LBJ',      'Dakota Clydesdales'],
-  ['Tank',     'Frank the Tanks'],
-  ['Rub',      'Irish Pubbers'],
-  ['Shaggy',   "I'm in Delaware"],
-  ['Turdbowl', 'GSP Exit 98'],
-  ['SH8',      'THE SH8TRIOTS'],
-  ['TC',       'Shake Down the Thundersocks'],
-  ['Marv',     'Garden State Marvelous'],
-  ['Sicko',    'Seattle Space Apes'],
 ]
 
 POSITIONS = [
