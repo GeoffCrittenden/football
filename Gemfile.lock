@@ -109,6 +109,7 @@ GEM
     minitest (5.10.3)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    newrelic_rpm (4.3.0.335)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
     os (0.9.6)
@@ -206,6 +207,7 @@ DEPENDENCIES
   google_drive
   jbuilder (~> 2.0)
   jquery-rails
+  newrelic_rpm
   pg
   rails (= 4.2.4)
   sass-rails (~> 5.0)
