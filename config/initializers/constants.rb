@@ -1,5 +1,3 @@
-BASE_URL = 'http://games.espn.com/ffl'
-
 GOOGLE_DRIVE_CONFIG = Football::CONFIG.google_drive_info.config_file
 
 LEAGUE_ID = Football::CONFIG.league_info.league_id
